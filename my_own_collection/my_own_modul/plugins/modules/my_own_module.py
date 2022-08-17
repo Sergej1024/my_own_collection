@@ -40,12 +40,12 @@ author:
 EXAMPLES = r'''
 # Create file
 - name: Test with a file create
-  my_own_collection.my_own_module:
+  my_own_collection.my_own_modul.my_own_module::
     path: ./
     content: test content
 # Create file with filename new_filename
 - name: Test with a file create
-  my_own_collection.my_own_module:
+  my_own_collection.my_own_modul.my_own_module::
     path: /home/ansible
     content: test
     filename: test_file

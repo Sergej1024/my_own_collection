@@ -1,0 +1,9 @@
+---
+# tasks file for my_own
+- hosts: localhost
+  tasks:
+    - name: Test with a file create
+      my_own_collection.my_own_modul.my_own_module:
+        path: "~"
+        content: test
+        filename: test_file

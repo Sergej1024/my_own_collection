@@ -2,7 +2,5 @@
 - hosts: localhost
   tasks:
     - name: Test with a file create
-      my_own_module:
-        path: "~"
-        content: test
-        filename: test_file
+      roles:
+        - my_own
