@@ -1,0 +1,4 @@
+---
+- src: git@github.com:Sergej1024/my_own_collection.git
+  scm: git
+  version: "1.0.0"
